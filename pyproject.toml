@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hydra-dl-launcher"
+version = "0.0.1"
+description = "Hydra launchers for deep learning projects"
+readme = "README.md"
+requires-python = ">=3.7, <4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = ["hydra-core", "cloudpickle"]
